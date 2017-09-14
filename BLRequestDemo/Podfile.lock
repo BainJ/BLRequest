@@ -1,0 +1,16 @@
+PODS:
+  - BLRequest (0.0.1)
+
+DEPENDENCIES:
+  - BLRequest (from `../`)
+
+EXTERNAL SOURCES:
+  BLRequest:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BLRequest: 9b10f14e8592f2798410a3c9eaf9d93fb2ae6587
+
+PODFILE CHECKSUM: aeab910baae57081c74b5171dc507de171b9154c
+
+COCOAPODS: 1.0.1

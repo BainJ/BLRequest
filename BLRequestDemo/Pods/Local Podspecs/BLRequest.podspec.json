@@ -1,0 +1,26 @@
+{
+  "name": "BLRequest",
+  "version": "0.0.1",
+  "summary": "BroadLink 的封装",
+  "description": "BroadLink 透传相关",
+  "homepage": "https://github.com/BainJ/BLRequest",
+  "license": "MIT",
+  "authors": {
+    "bainj": "devbainj@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/BainJ/BLRequest.git",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "BLRequest/BroadLinkRequest",
+    "BLRequest/opensdk"
+  ],
+  "public_header_files": "BLRequest/BroadLinkRequest/*.h",
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}
