@@ -18,6 +18,8 @@ FOUNDATION_EXPORT void BLLog(NSString *format, ...) NS_FORMAT_FUNCTION(1,2);
 #define BYTE_2(x) BYTE_0((x)>>16)
 #define BYTE_3(x) BYTE_0((x)>>24)
 
+#define SafeDicObj(obj) ((obj) ? (obj) : @"")
+
 typedef NS_ENUM(NSUInteger, BLRequestCommandType) {
     BLCommandTypeSearch = 0x0b01,
     BLCommandTypeControl = 0x0b02,

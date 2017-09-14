@@ -8,7 +8,6 @@
 
 #import "BLRequest.h"
 #import "BLNetwork.h"
-#import <YYModel/YYModel.h>
 #import "BLTransmissionPrivate.h"
 
 NSString *const BLRequestValidationErrorDomain = @"com.reewoow.request.validation";
@@ -100,10 +99,6 @@ NSString *const BLRequestValidationErrorDomain = @"com.reewoow.request.validatio
 
 - (void)handleRequestResultWithError:(NSError * _Nullable __autoreleasing *)error {
     
-}
-
-- (NSString *)description {
-    return [NSString stringWithFormat:@"%@", self.yy_modelDescription];
 }
 
 @end
