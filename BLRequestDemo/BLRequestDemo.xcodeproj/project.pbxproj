@@ -13,6 +13,13 @@
 		A71D79AA1F6A56CC00C0ABAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A71D79A81F6A56CC00C0ABAB /* Main.storyboard */; };
 		A71D79AC1F6A56CC00C0ABAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A71D79AB1F6A56CC00C0ABAB /* Assets.xcassets */; };
 		A71D79AF1F6A56CC00C0ABAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A71D79AD1F6A56CC00C0ABAB /* LaunchScreen.storyboard */; };
+		A71D79C71F6A5C8700C0ABAB /* BLPassthroughRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A71D79B91F6A5C8700C0ABAB /* BLPassthroughRequest.m */; };
+		A71D79C81F6A5C8700C0ABAB /* BLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A71D79BB1F6A5C8700C0ABAB /* BLRequest.m */; };
+		A71D79C91F6A5C8700C0ABAB /* BLTestApi.m in Sources */ = {isa = PBXBuildFile; fileRef = A71D79BD1F6A5C8700C0ABAB /* BLTestApi.m */; };
+		A71D79CA1F6A5C8700C0ABAB /* BLTransmissionAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = A71D79BF1F6A5C8700C0ABAB /* BLTransmissionAgent.m */; };
+		A71D79CB1F6A5C8700C0ABAB /* BLTransmissionConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = A71D79C11F6A5C8700C0ABAB /* BLTransmissionConfig.m */; };
+		A71D79CC1F6A5C8700C0ABAB /* BLTransmissionPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = A71D79C31F6A5C8700C0ABAB /* BLTransmissionPrivate.m */; };
+		A71D79CD1F6A5C8700C0ABAB /* libBLNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A71D79C61F6A5C8700C0ABAB /* libBLNetwork.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,20 @@
 		A71D79AB1F6A56CC00C0ABAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A71D79AE1F6A56CC00C0ABAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A71D79B01F6A56CC00C0ABAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A71D79B81F6A5C8700C0ABAB /* BLPassthroughRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLPassthroughRequest.h; sourceTree = "<group>"; };
+		A71D79B91F6A5C8700C0ABAB /* BLPassthroughRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLPassthroughRequest.m; sourceTree = "<group>"; };
+		A71D79BA1F6A5C8700C0ABAB /* BLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLRequest.h; sourceTree = "<group>"; };
+		A71D79BB1F6A5C8700C0ABAB /* BLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLRequest.m; sourceTree = "<group>"; };
+		A71D79BC1F6A5C8700C0ABAB /* BLTestApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLTestApi.h; sourceTree = "<group>"; };
+		A71D79BD1F6A5C8700C0ABAB /* BLTestApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLTestApi.m; sourceTree = "<group>"; };
+		A71D79BE1F6A5C8700C0ABAB /* BLTransmissionAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLTransmissionAgent.h; sourceTree = "<group>"; };
+		A71D79BF1F6A5C8700C0ABAB /* BLTransmissionAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLTransmissionAgent.m; sourceTree = "<group>"; };
+		A71D79C01F6A5C8700C0ABAB /* BLTransmissionConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLTransmissionConfig.h; sourceTree = "<group>"; };
+		A71D79C11F6A5C8700C0ABAB /* BLTransmissionConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLTransmissionConfig.m; sourceTree = "<group>"; };
+		A71D79C21F6A5C8700C0ABAB /* BLTransmissionPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLTransmissionPrivate.h; sourceTree = "<group>"; };
+		A71D79C31F6A5C8700C0ABAB /* BLTransmissionPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLTransmissionPrivate.m; sourceTree = "<group>"; };
+		A71D79C51F6A5C8700C0ABAB /* BLNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLNetwork.h; sourceTree = "<group>"; };
+		A71D79C61F6A5C8700C0ABAB /* libBLNetwork.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBLNetwork.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A71D79CD1F6A5C8700C0ABAB /* libBLNetwork.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +80,7 @@
 		A71D799E1F6A56CC00C0ABAB /* BLRequestDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A71D79B61F6A5C8700C0ABAB /* BLRequest */,
 				A71D79A21F6A56CC00C0ABAB /* AppDelegate.h */,
 				A71D79A31F6A56CC00C0ABAB /* AppDelegate.m */,
 				A71D79A51F6A56CC00C0ABAB /* ViewController.h */,
@@ -77,6 +100,43 @@
 				A71D79A01F6A56CC00C0ABAB /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A71D79B61F6A5C8700C0ABAB /* BLRequest */ = {
+			isa = PBXGroup;
+			children = (
+				A71D79B71F6A5C8700C0ABAB /* BLRequest */,
+				A71D79C41F6A5C8700C0ABAB /* opensdk */,
+			);
+			path = BLRequest;
+			sourceTree = "<group>";
+		};
+		A71D79B71F6A5C8700C0ABAB /* BLRequest */ = {
+			isa = PBXGroup;
+			children = (
+				A71D79B81F6A5C8700C0ABAB /* BLPassthroughRequest.h */,
+				A71D79B91F6A5C8700C0ABAB /* BLPassthroughRequest.m */,
+				A71D79BA1F6A5C8700C0ABAB /* BLRequest.h */,
+				A71D79BB1F6A5C8700C0ABAB /* BLRequest.m */,
+				A71D79BC1F6A5C8700C0ABAB /* BLTestApi.h */,
+				A71D79BD1F6A5C8700C0ABAB /* BLTestApi.m */,
+				A71D79BE1F6A5C8700C0ABAB /* BLTransmissionAgent.h */,
+				A71D79BF1F6A5C8700C0ABAB /* BLTransmissionAgent.m */,
+				A71D79C01F6A5C8700C0ABAB /* BLTransmissionConfig.h */,
+				A71D79C11F6A5C8700C0ABAB /* BLTransmissionConfig.m */,
+				A71D79C21F6A5C8700C0ABAB /* BLTransmissionPrivate.h */,
+				A71D79C31F6A5C8700C0ABAB /* BLTransmissionPrivate.m */,
+			);
+			path = BLRequest;
+			sourceTree = "<group>";
+		};
+		A71D79C41F6A5C8700C0ABAB /* opensdk */ = {
+			isa = PBXGroup;
+			children = (
+				A71D79C51F6A5C8700C0ABAB /* BLNetwork.h */,
+				A71D79C61F6A5C8700C0ABAB /* libBLNetwork.a */,
+			);
+			path = opensdk;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,9 +211,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A71D79C71F6A5C8700C0ABAB /* BLPassthroughRequest.m in Sources */,
+				A71D79C81F6A5C8700C0ABAB /* BLRequest.m in Sources */,
+				A71D79C91F6A5C8700C0ABAB /* BLTestApi.m in Sources */,
 				A71D79A71F6A56CC00C0ABAB /* ViewController.m in Sources */,
 				A71D79A41F6A56CC00C0ABAB /* AppDelegate.m in Sources */,
+				A71D79CA1F6A5C8700C0ABAB /* BLTransmissionAgent.m in Sources */,
+				A71D79CC1F6A5C8700C0ABAB /* BLTransmissionPrivate.m in Sources */,
 				A71D79A11F6A56CC00C0ABAB /* main.m in Sources */,
+				A71D79CB1F6A5C8700C0ABAB /* BLTransmissionConfig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +344,10 @@
 				DEVELOPMENT_TEAM = 382675762T;
 				INFOPLIST_FILE = BLRequestDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BLRequestDemo/BLRequest/opensdk",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Reewoow.BLRequestDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -290,6 +360,10 @@
 				DEVELOPMENT_TEAM = 382675762T;
 				INFOPLIST_FILE = BLRequestDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BLRequestDemo/BLRequest/opensdk",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Reewoow.BLRequestDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -314,6 +388,7 @@
 				A71D79B51F6A56CC00C0ABAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
