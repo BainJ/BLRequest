@@ -17,6 +17,8 @@
     "BLRequest/opensdk"
   ],
   "public_header_files": "BLRequest/BroadLinkRequest/*.h",
+  "vendored_libraries": "BLRequest/opensdk/*.a",
+  "requires_arc": true,
   "platforms": {
     "osx": null,
     "ios": null,
